@@ -1,0 +1,25 @@
+
+[targ1]
+backend=local
+path=d:\tmp\targ1
+
+[usbstick]
+backend=local
+drive=UsbStick
+path=backup\foo
+
+[s3yo]
+backend=s3
+access_key = rdBLAHBLAHBLAH9ms4w
+access_key_id = AKBLAHBLAHBLAHPA
+region = ap-southeast-2
+
+[remoteserver]
+backend=zmq
+server=server.com
+
+[servermode]
+backend=local
+path=/home/bb/backup/foo
+inactivelimit=120
+port=5555
