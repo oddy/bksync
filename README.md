@@ -10,9 +10,11 @@ Syncer for Borg backup / Attic blockfiles
 ## Getting Started
 
 Syncing is an operation performed between two targets, given on the command line, e.g:
+
 Run `python bksync.py target1 target2` 
 
 `bk.ini` controls how backends are used to access targets containing repos. 
+
 Target names are section names in the bk.ini, e.g:
 
 ```
